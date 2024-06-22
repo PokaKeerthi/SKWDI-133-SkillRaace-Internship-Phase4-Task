@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awsome -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Styling CSS Link -->
+    <link rel="stylesheet" href="./css/header/header.css">
+    <link rel="stylesheet" href="./css/about/about.css">
+    <link rel="stylesheet" href="./css/products/products.css">
+    <link rel="stylesheet" href="./css/contact/contact.css">
+    <!-- Responsive CSS Link -->
+    <link rel="stylesheet" href="./css/header/header-responsive.css">
+    <link rel="stylesheet" href="./css/about/about-responsive.css">
+    <link rel="stylesheet" href="./css/products/products-responsive.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/icons/favicon.png" type="png">
+    <!-- Title -->
+    <title>Store - Shop Online</title>
+</head>
+<body>
+    <!-- HERO SECTION -->
+    <!-- <div class="loginModal">
+        <div class="login-form">
+            <input type="text" class="input">
+            <input type="text" class="input">
+        </div>
+    </div> -->
+    <section class="header">
+        <div class="dull">
+            <div class="navbar" id="navbar">
+                <!-- NavBar Here from NavBar.js -->
+            </div>
+    
+            <div class="hero-content">
+                <div>
+                    <h1 class="hero-heading-small">THE LATEST</h1>     
+                    <h1 class="hero-heading-large">TECHNOLOGIES</h1>  
+                    <p class="hero-txt">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum tenetur assumenda esse sit sunt et asperiores harum nostrum animi Lorem, ipsum.</p>          
+                    <div class="hero-btn">
+                        <button>
+                            <a href="#products-section">OUR PRODUCTS</a>
+                        </button>
+                        <button>
+                            <a href="#contact-section">CONTACT US</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ABOUT SECTION -->
+    <section class="about-section" id="about-section">
+        <div>
+            <div class="section-heading-div">
+                <h1 class="section-heading">ABOUT US</h1>
+                <div class="heading-line"></div>
+            </div>
+            <p class="about-disc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur ut distinctio voluptatum similique ipsum magni quidem magnam praesentium aliquam sed!</p>
+            <button class="btn">
+                <a href="#">READ MORE</a>
+            </button>
+        </div>
+        <div>
+            <img src="./assets/backgrounds/hero-side-bg.png" alt="About Section Img" class="about-img">
+        </div>
+    </section>
+    <!-- PRODUCTS SECTION -->
+    <section class="products-section" id="products-section">
+        <div class="section-heading-div">
+            <h1 class="section-heading gaps-heading">OUR PRODUCTS</h1>
+            <div class="heading-line"></div>
+        </div>
+        <h3 class="item-heading">LAPTOPS</h3>
+        <div class="products-container" id="laptops-container">
+            <!--product cards here from ProductCard.js  -->
+        </div>
+
+        <h3 class="item-heading">MOBILES</h3>
+        <div class="products-container" id="mobiles-container">
+            <!--product cards here from ProductCard.js  -->
+        </div>
+
+        <h3 class="item-heading">TABLETS</h3>
+        <div class="products-container" id="tablets-container">
+            <!--product cards here from ProductCard.js  -->
+        </div>        
+    </section>
+
+    <section id="contact-section">
+    <div class="section-heading-div">
+        <h1 class="section-heading gaps-heading">CONTACT US</h1>
+        <div class="heading-line"></div>
+    </div>
+    <div class="form-div">
+        <div class="form-container">
+            <form class="form">
+              <div class="form-group">
+                <label for="email">Your Email</label>
+                <input type="text" id="email" name="email" required="">
+              </div>
+              <div class="form-group">
+                <label for="textarea">How Can We Help You?</label>
+                <textarea name="textarea" id="textarea" rows="10" cols="50" required="">          </textarea>
+              </div>
+              <button class="form-submit-btn" type="submit">Submit</button>
+            </form>
+          </div>
+    </div>
+    <script src="./Components/ProductCard.js"></script>
+    <script src="./Components/NavBar.js"></script>
+</body>
+</html>
